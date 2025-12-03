@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proxy-Onyx - Personal Branding & Services</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="proxy.css">
+
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav>
+        <div class="logo">Proxy-Onyx</div>
+        <div class="nav-toggle" id="nav-toggle"><span></span><span></span><span></span></div>
+        <ul id="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- HERO -->
+    <header>
+        <h1>Proxy-Onyx</h1>
+        <p>I provide <span class="typed"></span></p>
+        <div class="cta-buttons">
+            <a href="#contact">Contact Me</a>
+            <a href="Proxy_Onyx_CV.pdf" download>Download CV</a>
+        </div>
+    </header>
+
+    <!-- ABOUT -->
+    <section id="about"
+        style="background-image:url('https://images.unsplash.com/photo-1555949963-aa79dcee9811?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=1080&w=1080');">
+        <h2>About Me</h2>
+        <p>I provide professional services like CV Writing, Assignment Formatting, Poster Design, PDF Editing, Front-End
+            Web Development, and Government-related applications to help clients shine professionally. My teacher
+            branding ensures quality and precision.</p>
+    </section>
+
+    <!-- SERVICES -->
+    <section id="services"
+        style="background-image:url('https://images.unsplash.com/photo-1519389950473-47ba0277781c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=1080&w=1080');">
+        <h2>Services</h2>
+        <div class="services">
+            <div class="service" data-service="cv"
+                style="background-image:url('https://images.unsplash.com/photo-1522202176988-66273c2fd55f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=1080&w=1080')">
+                <h3>CV Writing</h3>
+                <p>Professional CVs reflecting achievements and skills.</p>
+            </div>
+            <div class="service" data-service="poster"
+                style="background-image:url('https://images.unsplash.com/photo-1581090700227-973b8b3c82a3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=1080&w=1080')">
+                <h3>Poster Design</h3>
+                <p>Creative and professional poster designs.</p>
+            </div>
+            <div class="service" data-service="assignment"
+                style="background-image:url('https://images.unsplash.com/photo-1596496050133-5d1d7c660b1b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=1080&w=1080')">
+                <h3>Assignment Formatting</h3>
+                <p>Properly formatted academic assignments.</p>
+            </div>
+            <div class="service" data-service="pdf"
+                style="background-image:url('https://images.unsplash.com/photo-1581091215360-9478b72cc4b5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=1080&w=1080')">
+                <h3>PDF Editing</h3>
+                <p>Edit and manage your PDFs professionally.</p>
+            </div>
+            <div class="service" data-service="web"
+                style="background-image:url('https://images.unsplash.com/photo-1581091870629-3c539f1fcde5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=1080&w=1080')">
+                <h3>Front-End Web Dev</h3>
+                <p>Responsive websites with modern designs.</p>
+            </div>
+            <div class="service" data-service="kra"
+                style="background-image:url('https://images.unsplash.com/photo-1581091012184-20a0d0d3d2a6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=1080&w=1080')">
+                <h3>KRA Services</h3>
+                <p>Tax services, guidance & documentation.</p>
+            </div>
+            <div class="service" data-service="helb"
+                style="background-image:url('https://images.unsplash.com/photo-1581091225345-4d0cbb0d1c07?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=1080&w=1080')">
+                <h3>HELB Services</h3>
+                <p>Student loan application & guidance.</p>
+            </div>
+            <div class="service" data-service="gov"
+                style="background-image:url('https://images.unsplash.com/photo-1581091915867-44c3c2d39f52?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=1080&w=1080')">
+                <h3>Government Applications</h3>
+                <p>Processing government forms and applications.</p>
+            </div>
+        </div>
+
+        <div id="service-samples-container"></div>
+    </section>
+
+    <!-- PORTFOLIO -->
+    <section id="portfolio"
+        style="background-image:url('https://images.unsplash.com/photo-1532619187606-3793b2db7906?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=1080&w=1080');">
+        <h2>Portfolio</h2>
+        <div class="portfolio">
+            <div class="portfolio-item"><img src="https://via.placeholder.com/400x250.png?text=CV+Sample"
+                    alt="CV Sample"></div>
+            <div class="portfolio-item"><img src="https://via.placeholder.com/400x250.png?text=Poster+Sample"
+                    alt="Poster Sample"></div>
+            <div class="portfolio-item"><img src="https://via.placeholder.com/400x250.png?text=Web+Project"
+                    alt="Web Project"></div>
+        </div>
+    </section>
+
+    <!-- LIGHTBOX -->
+    <div id="lightbox">
+        <span id="close-lightbox">&times;</span>
+        <img src="" alt="">
+    </div>
+
+    <!-- SKILLS -->
+    <section id="skills"
+        style="background-image:url('https://images.unsplash.com/photo-1498050108023-c5249f4df085?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=1080&w=1080');">
+        <h2>Skills</h2>
+        <div class="skills">
+            <div class="skill">
+                <div class="skill-name">HTML/CSS</div>
+                <div class="skill-bar">
+                    <div class="skill-bar-fill" style="width:95%"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="skill-name">JavaScript</div>
+                <div class="skill-bar">
+                    <div class="skill-bar-fill" style="width:85%"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="skill-name">Frameworks</div>
+                <div class="skill-bar">
+                    <div class="skill-bar-fill" style="width:75%"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section id="testimonials"
+        style="background-image:url('https://images.unsplash.com/photo-1519389950473-47ba0277781c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=1080&w=1080');">
+        <h2>Testimonials</h2>
+        <div class="testimonials">
+            <div class="testimonial">
+                <p>"Proxy-Onyx helped me get my dream job!"</p>
+                <h4>- Jane Doe</h4>
+            </div>
+            <div class="testimonial">
+                <p>"Amazing poster design!"</p>
+                <h4>- John Smith</h4>
+            </div>
+            <div class="testimonial">
+                <p>"Responsive websites built perfectly!"</p>
+                <h4>- Alice W.</h4>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact" id="contact"
+        style="background-image:url('https://images.unsplash.com/photo-1564866657313-4e6b25cb839c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=1080&w=1080');">
+        <h2>Contact Me</h2>
+        <p>📞 WhatsApp: <a href="https://wa.me/254769551382" target="_blank">0769551382</a></p>
+        <p>📧 Email: <a href="mailto:godwinshieunda26@gmail.com">godwinshieunda26@gmail.com</a></p>
+        <form action="mailto:godwinshieunda26@gmail.com" method="POST" enctype="text/plain">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        &copy; 2025 Proxy-Onyx. All Rights Reserved.
+    </footer>
+
+    <script src="proxy.js"></script>
+</body>
+
+</html>
